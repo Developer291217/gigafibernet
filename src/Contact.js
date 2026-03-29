@@ -83,44 +83,70 @@ const Contact = () => {
     <label htmlFor="plan">Interested Plan</label>
     <select id="plan" name="plan">
       <option value="">Select a plan</option>
-      <optgroup label="OTT Bundled Plans">
-        <option value="30 Mbps OTT - ₹399">30 Mbps OTT - ₹399</option>
-        <option value="50 Mbps OTT - ₹499">50 Mbps OTT - ₹499</option>
-        <option value="75 Mbps OTT - ₹599">75 Mbps OTT - ₹599</option>
-        <option value="100 Mbps OTT - ₹799">100 Mbps OTT - ₹799</option>
-        <option value="150 Mbps OTT - ₹899">150 Mbps OTT - ₹899</option>
-        <option value="200 Mbps OTT - ₹999">200 Mbps OTT - ₹999</option>
-        <option value="300 Mbps OTT - ₹1199">300 Mbps OTT - ₹1199</option>
-        <option value="500 Mbps OTT - ₹1999">500 Mbps OTT - ₹1999</option>
-      </optgroup>
-      <optgroup label="Regular Broadband Plans">
-        <option value="30 Mbps - ₹299/month">30 Mbps - ₹299/month</option>
-        <option value="50 Mbps - ₹399/month">50 Mbps - ₹399/month</option>
-        <option value="75 Mbps - ₹499/month">75 Mbps - ₹499/month</option>
-        <option value="100 Mbps - ₹599/month">100 Mbps - ₹599/month</option>
-        <option value="150 Mbps - ₹699/month">150 Mbps - ₹699/month</option>
-        <option value="200 Mbps - ₹799/month">200 Mbps - ₹799/month</option>
-        <option value="300 Mbps - ₹999/month">300 Mbps - ₹999/month</option>
-        <option value="500 Mbps - ₹1999/month">500 Mbps - ₹1999/month</option>
-      </optgroup>
-      <optgroup label="Business Plans">
-        <option value="Business Starter - 100 Mbps">
-          Business Starter - 100 Mbps
-        </option>
-        <option value="Business Professional - 200 Mbps">
-          Business Professional - 200 Mbps
-        </option>
-        <option value="Business Enterprise - 500 Mbps">
-          Business Enterprise - 500 Mbps
-        </option>
-      </optgroup>
-      <optgroup label="Leased Line">
-        <option value="Leased Line - 10 Mbps">Leased Line - 10 Mbps</option>
-        <option value="Leased Line - 50 Mbps">Leased Line - 50 Mbps</option>
-        <option value="Leased Line - 100 Mbps">Leased Line - 100 Mbps</option>
-        <option value="Leased Line - Custom">Leased Line - Custom</option>
-      </optgroup>
-    </select>
+      <optgroup label="OTT Plans">
+        <option value="50 Mbps - ₹524">50 Mbps - ₹524</option>
+        <option value="75 Mbps - ₹699">75 Mbps - ₹699</option>
+        <option value="100 Mbps - ₹949">100 Mbps - ₹949</option>
+        <option value="150 Mbps - ₹1049">150 Mbps - ₹1049</option>
+        </optgroup>
+      <optgroup label="Regular Plans R Monthly">
+        <option value="30 Mbps - ₹399/month">30 Mbps - ₹399/Monthly</option>
+        <option value="50 Mbps - 2544/month">50 Mbps - 2544/Monthly</option>
+        <option value="75 Mbps - ₹549/month">75 Mbps - ₹549/Monthly</option>
+        <option value="100 Mbps - ₹699/month">100 Mbps - ₹699/Monthly</option>
+        <option value="150 Mbps - ₹799/month">150 Mbps - ₹799/Monthly</option>
+        <option value="200 Mbps - ₹999/month">200 Mbps - ₹999/Monthly</option>
+        <option value="300 Mbps - ₹1299/month">300 Mbps - ₹1299/Monthly</option>
+       </optgroup>
+         <optgroup label="Regular Plans R Half Yearly">
+        <option value="30 Mbps - ₹2034/Half Yearly">30 Mbps - ₹2034/Half Yearly</option>
+        <option value="50 Mbps - ₹2544/Half Yearly">50 Mbps - ₹2544/Half Yearly</option>
+        <option value="75 Mbps - ₹3294/Half Yearly">75 Mbps - ₹3294/Half Yearly</option>
+        <option value="100 Mbps - ₹4194/Half Yearly">100 Mbps - ₹4194/Half Yearly</option>
+        <option value="150 Mbps - ₹4794/Half Yearly">150 Mbps - ₹4794/Half Yearly</option>
+        <option value="200 Mbps - ₹5994/Half Yearly">200 Mbps - ₹5994/Half Yearly</option>
+        <option value="300 Mbps - ₹7794/Half Yearly">300 Mbps - ₹7794/Half Yearly</option>
+       </optgroup>
+        <optgroup label="Regular Plans R Yearly">
+        <option value="30 Mbps - ₹499/Yearly">30 Mbps - ₹4068/Yearly</option>
+        <option value="50 Mbps - ₹599/Yearly">50 Mbps - ₹5088/Yearly</option>
+        <option value="75 Mbps - ₹699/Yearly">75 Mbps - ₹6588/Yearly</option>
+        <option value="100 Mbps - ₹849/Yearly">100 Mbps - ₹8388/Yearly</option>
+        <option value="150 Mbps - ₹949/Yearly">150 Mbps - ₹9588/Yearly</option>
+        <option value="200 Mbps - ₹1149/Yearly">200 Mbps - ₹11988/Yearly</option>
+        <option value="300 Mbps - ₹1449/Yearly">300 Mbps - ₹15588/Yearly</option>
+       </optgroup>
+
+         <optgroup label="Regular Plans R + TV Monthly">
+        <option value="30 Mbps - ₹499/Monthly">30 Mbps - ₹499/Monthly</option>
+        <option value="50 Mbps - ₹599/Monthly">50 Mbps - ₹599/Monthly</option>
+        <option value="75 Mbps - ₹699/Monthly">75 Mbps - ₹699/Monthly</option>
+        <option value="100 Mbps - ₹849/Monthly">100 Mbps - ₹849/Monthly</option>
+        <option value="150 Mbps - ₹949/Monthly">150 Mbps - ₹949/Monthly</option>
+        <option value="200 Mbps - ₹1149/Monthly">200 Mbps - ₹1149/Monthly</option>
+        <option value="300 Mbps - ₹1449/Monthly">300 Mbps - ₹1449/Monthly</option>
+       </optgroup>
+
+       <optgroup label="Regular Plans R + TV Half Yearly">
+        <option value="30 Mbps - ₹2994/Half Yearly">30 Mbps - ₹2994/Half Yearly</option>
+        <option value="50 Mbps - ₹3594/Half Yearly">50 Mbps - ₹3594/Half Yearly</option>
+        <option value="75 Mbps - ₹4194/Half Yearly">75 Mbps - ₹4194/Half Yearly</option>
+        <option value="100 Mbps - ₹5094/Half Yearly">100 Mbps - ₹5094/Half Yearly</option>
+        <option value="150 Mbps - ₹5694/Half Yearly">150 Mbps - ₹5694/Half Yearly</option>
+        <option value="200 Mbps - ₹6894/Half Yearly">200 Mbps - ₹6894/Half Yearly</option>
+        <option value="300 Mbps - ₹8694/Half Yearly">300 Mbps - ₹8694/Half Yearly</option>
+       </optgroup>
+
+        <optgroup label="Regular Plans R + TV Yearly">
+        <option value="30 Mbps - ₹5988/Yearly">30 Mbps - ₹5988/Yearly</option>
+        <option value="50 Mbps - ₹7188/Yearly">50 Mbps - ₹7188/Yearly</option>
+        <option value="75 Mbps - ₹8388/Yearly">75 Mbps - ₹8388/Yearly</option>
+        <option value="100 Mbps - ₹10188/Yearly">100 Mbps - ₹10188/Yearly</option>
+        <option value="150 Mbps - ₹11388/Yearly">150 Mbps - ₹11388/Yearly</option>
+        <option value="200 Mbps - ₹13788/Yearly">200 Mbps - ₹13788/Yearly</option>
+        <option value="300 Mbps - ₹17388/Yearly">300 Mbps - ₹17388/Yearly</option>
+       </optgroup>
+      </select>
   </div>
   <div className="form-group">
     <label htmlFor="message">Message (Optional)</label>
