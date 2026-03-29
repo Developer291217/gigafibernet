@@ -67,8 +67,7 @@ const OttPlans = () => {
               + 8
             </div>
           </div>
-          <a
-            href="contact.php"
+          <Link to="/Contact"
             className="btn btn-primary get-connection-btn"
             style={{
               marginTop: "1rem",
@@ -77,7 +76,7 @@ const OttPlans = () => {
             }}
           >
             Select Plan
-          </a>
+          </Link>
         </div>
         <div
           className="col-md-5 plan-card"
@@ -123,8 +122,7 @@ const OttPlans = () => {
               + 9
             </div>
           </div>
-          <a
-            href="contact.php"
+          <Link to="Contact"
             className="btn btn-primary get-connection-btn"
             style={{
               marginTop: "1rem",
@@ -133,7 +131,7 @@ const OttPlans = () => {
             }}
           >
             Select Plan
-          </a>
+          </Link>
         </div>
         <div className="col-md-1" />
         <hr />
@@ -182,8 +180,7 @@ const OttPlans = () => {
               + 10
             </div>
           </div>
-          <a
-            href="contact.php"
+          <Link to="Contact"
             className="btn btn-primary get-connection-btn"
             style={{
               marginTop: "1rem",
@@ -192,7 +189,7 @@ const OttPlans = () => {
             }}
           >
             Select Plan
-          </a>
+          </Link>
         </div>
         <div
           className="col-md-5 plan-card"
@@ -238,8 +235,7 @@ const OttPlans = () => {
               + 10
             </div>
           </div>
-          <a
-            href="contact.php"
+          <Link to="/Contact"
             className="btn btn-primary get-connection-btn"
             style={{
               marginTop: "1rem",
@@ -248,7 +244,7 @@ const OttPlans = () => {
             }}
           >
             Select Plan
-          </a>
+          </Link>
         </div>
         <div className="col-md-1" />
       </div>
@@ -324,12 +320,12 @@ const OttPlans = () => {
           </div>
       </div> */}
           <div className="text-center" style={{ marginTop: "2rem" }}>
-            <a
-              href="ott-apps.php"
+            <Link
+              to="/OttPlans"
               className="btn btn-primary get-connection-btn"
             >
               View All OTT Apps Details <i className="fas fa-arrow-right" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -375,9 +371,9 @@ const OttPlans = () => {
       <div align="center" className="cta-content">
         <h2>Ready to Get Your OTT Bundled Plan?</h2>
         <p>Choose your plan and start streaming today</p>
-        <a href="contact.php" className="btn btn-primary get-connection-btn">
+        <Link to="/Contact" className="btn btn-primary get-connection-btn">
           Get New Connection
-        </a>
+        </Link>
       </div>
     </div>
   </section>
