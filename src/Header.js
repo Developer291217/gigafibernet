@@ -27,8 +27,8 @@ const Header = () => {
       <div className="container d-flex justify-content-center justify-content-md-between">
         <div className="contact-info d-flex align-items-center">
           <i className="bi bi-envelope d-flex align-items-center"><a
-              href="/cdn-cgi/l/email-protection#75161a1b0114160135100d14180519105b161a18"><span className="__cf_email__"
-                data-cfemail="34575b5a4055574074514c55594458511a575b59">siva@gigafibernet.co.in</span></a></i>
+              href=""><span className="__cf_email__"
+                >siva@gigafibernet.co.in</span></a></i>
           <i className="bi bi-phone d-flex align-items-center ms-4"><span>+91 99493 29002</span></i>
         </div>
         <div className="social-links d-none d-md-flex align-items-center">
@@ -43,9 +43,9 @@ const Header = () => {
     <div className="branding d-flex align-items-center dark-background">
 
       <div className="container position-relative d-flex align-items-center justify-content-between dark-background">
-        <a href="index.html" className="logo d-flex align-items-center">
+        <Link to="/" className="logo d-flex align-items-center">
           <img className="Logo" src="/assets/img/misc/Logo.jpg" alt="Logo" />
-         </a>
+         </Link>
 
         <nav id="navmenu" className="navmenu">
           <ul>

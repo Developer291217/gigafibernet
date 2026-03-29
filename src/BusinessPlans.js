@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const BusinessPlans = () => {
   return (
 <>
@@ -146,9 +147,9 @@ const BusinessPlans = () => {
       <div align="center" className="cta-content">
         <h2>Ready to Upgrade Your Business Internet?</h2>
         <p>Contact us for a customized quote and consultation</p>
-        <a href="contact.php" className="btn btn-primary get-connection-btn">
+        <Link to="/Contact" className="btn btn-primary get-connection-btn">
           Get Business Connection
-        </a>
+        </Link>
       </div>
     </div>
   </div>

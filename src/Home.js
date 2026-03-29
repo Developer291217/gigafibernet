@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -25,8 +26,8 @@ const Home = () => {
               </p>
 
               <div className="hero-buttons">
-                <a href="#" className="btn btn-primary">Get New Connection</a>
-                <a href="#" className="btn btn-primary">View Plans</a>
+                <Link to="/Contact" className="btn btn-primary">Get New Connection</Link>
+                <Link to="/OttPlans" className="btn btn-primary">View Plans</Link>
               </div>
             </div>
           </div>
@@ -45,8 +46,8 @@ const Home = () => {
 
 
               <div className="hero-buttons">
-                <a href="#" className="btn btn-primary">Get New Connection</a>
-                <a href="#" className="btn btn-primary">View Plans</a>
+                <Link to="/Contact" className="btn btn-primary">Get New Connection</Link>
+                <Link to="/OttPlans" className="btn btn-primary">View Plans</Link>
               </div>
 
             </div>
@@ -383,7 +384,7 @@ const Home = () => {
           <li>Speeds from 60 Mbps to 500 Mbps</li>
         </ul>
 
-        <a href="#" className="plan-btn">View OTT Plans →</a>
+        <Link to="/OttPlans" className="plan-btn">View OTT Plans →</Link>
       </div>
 
        <div className="plan-card">
@@ -403,7 +404,7 @@ const Home = () => {
           <li>Speeds from 40 Mbps to 500 Mbps</li>
         </ul>
 
-        <a href="#" className="plan-btn">View Regular Plans →</a>
+        <Link to="/RegularPlans" className="plan-btn">View Regular Plans →</Link>
       </div>
 
        <div className="plan-card">
@@ -424,7 +425,7 @@ const Home = () => {
           <li>Custom enterprise plans</li>
         </ul>
 
-        <a href="#" className="plan-btn">View Business Plans →</a>
+        <Link to="/BusinessPlans" className="plan-btn">View Business Plans →</Link>
       </div>
 
     </div>
@@ -443,9 +444,9 @@ const Home = () => {
           <div className="entertaiment-left">
             <h2 className="heading56">Enjoy unlimited <span>Entertainment </span></h2>
             <p>Enjoy 400+ live TV channels and multiple OTT apps as optional add-ons with GIGA FIBERNET</p>
-            <br/>ton <button className="btn btn-danger text-uppercase d-lg-block d-none mg-t-48 act_fibernetNCform"
+            <br/> <Link to="/Contact" className="btn btn-danger text-uppercase d-lg-block d-none mg-t-48 act_fibernetNCform"
               data-bs-toggle="modal" data-bs-target="#checkAbailabilityModal">
-              Get a connection </button>
+              Get a connection </Link>
           </div>
           <div className="entertaiment-right">
             <div className="entertaiment-img-wrapper">
