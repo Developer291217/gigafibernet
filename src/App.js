@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from "./ScrollToTop";
 import Header from './Header'
 import Home from './Home'
-import Footer from './Footer'
-import About from './About'
+import Footer from './Footer' 
 import OttPlans from './OttPlans'
 import RegularPlans from './RegularPlans'
 import BusinessPlans from './BusinessPlans'
@@ -14,7 +14,9 @@ import Contact from './Contact'
 
 function App() {
   return (
+    
     <Router>
+       <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -8,9 +9,9 @@ const Footer = () => {
     <div className="row gy-4 align-items-start">
 
             <div className="col-lg-4 col-md-6 footer-about">
-        <a href="index.html" >
+        <Link to="/">
           <img className="logo-img" src="assets/img/misc/Logo.jpg" alt="" />
-        </a>
+        </Link>
 
         <div className="footer-contact pt-3">
           <p align="justify">
@@ -24,8 +25,8 @@ const Footer = () => {
          <div className="col-lg-2 col-md-3 footer-links">
         <h4>Useful Links</h4>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About us</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><a href="#about">About us</a></li>
           <li><a href="#">Terms of service</a></li>
           <li><a href="#">Privacy policy</a></li>
         </ul>
@@ -35,10 +36,10 @@ const Footer = () => {
       <div className="col-lg-2 col-md-3 footer-links">
         <h4>Our Services</h4>
         <ul>
-          <li><a href="#">Broadband</a></li>
-          <li><a href="#">ILL</a></li>
-          <li><a href="#">Networking</a></li>
-          <li><a href="#">CCTV</a></li>
+          <li><Link to="/Broadband">Broadband</Link></li>
+          <li><Link to="/Ill">ILL</Link></li>
+          <li><Link to="/Networking">Networking</Link></li>
+          <li><Link to="/Cctv">CCTV</Link></li>
         </ul>
       </div>
 
@@ -46,9 +47,9 @@ const Footer = () => {
       <div className="col-lg-2 col-md-3 footer-links">
         <h4>Our Plans</h4>
         <ul>
-          <li><a href="#">OTT Plans</a></li>
-          <li><a href="#">Regular Plans</a></li>
-          <li><a href="#">Business Plans</a></li>
+          <li><Link to="/OttPlans">OTT Plans</Link></li>
+          <li><Link to="/RegularPlans">Regular Plans</Link></li>
+          <li><Link to="/BusinessPlans">Business Plans</Link></li>
         </ul>
       </div>
 
@@ -57,8 +58,8 @@ const Footer = () => {
 
   <div className="container copyright text-center mt-4">
     <p>
-      © <span>GIGA FIBERNET All Rights Reserved. |
-      <a href="#">Terms of service</a> |
+      © <span>GIGA FIBERNET All Rights Reserved. &nbsp;|&nbsp;
+      <a href="#">Terms of service</a> &nbsp;|&nbsp;
       <a href="#">Privacy policy</a></span>
     </p>
   </div>
