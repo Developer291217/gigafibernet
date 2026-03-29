@@ -69,13 +69,12 @@ const Header = () => {
                 <li><Link to ="/CCTV">CCTV</Link></li>
               </ul>
             </li>
-            <li><a href="#chefs"><strong>Bill Pay</strong></a></li>
-            <li><Link to="/Contact"><strong>Contact</strong></Link></li>
+             <li><Link to="/Contact"><strong>Contact</strong></Link></li>
 
             <li className="nav-btn">
-              <a href="#" className="btn btn-primary get-connection-btn">
+              <Link to="/Contact" className="btn btn-primary get-connection-btn">
                 Get New Connection
-              </a>
+              </Link>
             </li>
           </ul>
           <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
